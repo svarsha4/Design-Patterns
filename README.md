@@ -12,6 +12,7 @@ This project contains **Notes**, a **Presentation** covering the design patterns
 ## Design Patterns Implemented
 
 
+
 ### Creational Patterns
 
 
@@ -34,6 +35,7 @@ This project contains **Notes**, a **Presentation** covering the design patterns
 **Singleton**
 
 `Logging/OrderLogger.cs` Guarantees exactly one `OrderLogger` instance exists throughout the whole application, accessed through a single static `Instance` property with a private constructor
+
 
 
 ### Structural Patterns
@@ -70,6 +72,7 @@ This project contains **Notes**, a **Presentation** covering the design patterns
 **Proxy** 
 
 `Nutrition/NutritionServiceProxy.cs` Sits in front of a slow `RealNutritionService`, caching results so repeat lookups for the same pizza return instantly
+
 
 
 ### Behavioral Patterns
