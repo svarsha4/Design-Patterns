@@ -111,4 +111,5 @@ This project contains **Notes**, a **Presentation** covering the design patterns
 `Visitors/IVisitor.cs`, `ReceiptVisitor`, `NutritionReportVisitor` Adds new operations (i.e. receipt generation, nutrition reporting) to existing item classes without modifying those classes
 
 **Interpreter** 
+
 `Interpreter/OrderInterpreter.cs` Parses a simple text-based order format (i.e. `"2xMargherita, 1xCola"`) into real `Pizza` objects.
