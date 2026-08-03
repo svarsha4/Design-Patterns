@@ -1,0 +1,14 @@
+C:\Users\SaulVarshavsky\PizzaPalace\bin\Debug\net10.0\PizzaPalace.exe
+C:\Users\SaulVarshavsky\PizzaPalace\bin\Debug\net10.0\PizzaPalace.deps.json
+C:\Users\SaulVarshavsky\PizzaPalace\bin\Debug\net10.0\PizzaPalace.runtimeconfig.json
+C:\Users\SaulVarshavsky\PizzaPalace\bin\Debug\net10.0\PizzaPalace.dll
+C:\Users\SaulVarshavsky\PizzaPalace\bin\Debug\net10.0\PizzaPalace.pdb
+C:\Users\SaulVarshavsky\PizzaPalace\obj\Debug\net10.0\PizzaPalace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SaulVarshavsky\PizzaPalace\obj\Debug\net10.0\PizzaPalace.AssemblyInfoInputs.cache
+C:\Users\SaulVarshavsky\PizzaPalace\obj\Debug\net10.0\PizzaPalace.AssemblyInfo.cs
+C:\Users\SaulVarshavsky\PizzaPalace\obj\Debug\net10.0\PizzaPalace.csproj.CoreCompileInputs.cache
+C:\Users\SaulVarshavsky\PizzaPalace\obj\Debug\net10.0\PizzaPalace.dll
+C:\Users\SaulVarshavsky\PizzaPalace\obj\Debug\net10.0\refint\PizzaPalace.dll
+C:\Users\SaulVarshavsky\PizzaPalace\obj\Debug\net10.0\PizzaPalace.pdb
+C:\Users\SaulVarshavsky\PizzaPalace\obj\Debug\net10.0\PizzaPalace.genruntimeconfig.cache
+C:\Users\SaulVarshavsky\PizzaPalace\obj\Debug\net10.0\ref\PizzaPalace.dll
