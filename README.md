@@ -15,8 +15,6 @@ This project contains **Notes**, a **Presentation** covering the design patterns
 ### Creational Patterns
 
 
-|---|---|---|
-
 | **Factory Method** | `Factories/PizzaFactory.cs` | Subclasses (`NYPizzaFactory`, `ChicagoPizzaFactory`) override `CreatePizza()` to decide which concrete `Pizza` gets built, while `OrderPizza()` stays fixed in the base class |
 
 | **Abstract Factory** | `Factories/IPizzaIngredientFactory.cs`, `Ingredients/` | `NYIngredientFactory` and `ChicagoIngredientFactory` each produce a consistent *family* of ingredients (dough, sauce, cheese) |
@@ -30,8 +28,6 @@ This project contains **Notes**, a **Presentation** covering the design patterns
 
 ### Structural Patterns
 
-
-|---|---|---|
 
 | **Decorator** | `Decorators/ToppingDecorator.cs` | Wraps an `IOrderItem` to add extra toppings and cost at runtime, without modifying the `Pizza` classes |
 
@@ -52,8 +48,6 @@ This project contains **Notes**, a **Presentation** covering the design patterns
 
 ### Behavioral Patterns
 
-
-|---|---|---|
 
 | **Strategy** | `Payments/IPaymentStrategy.cs`, `Checkout/Checkout.cs` | Lets a customer swap payment algorithms (i.e. credit card, cash, wallet) at runtime |
 
