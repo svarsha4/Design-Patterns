@@ -23,21 +23,35 @@ This project contains **Notes**, a **Presentation** covering the design patterns
 
 `Factories/IPizzaIngredientFactory.cs`, `Ingredients/`  `NYIngredientFactory` and `ChicagoIngredientFactory` each produce a consistent *family* of ingredients (dough, sauce, cheese) 
 
-| **Builder** | `Builders/CustomPizzaBuilder.cs` | Assembles a `CustomPizza` step by step (size, crust, toppings, price) through chained method calls instead of one large constructor |
+**Builder**
 
-| **Prototype** | `Models/Pizza.cs` (`ChefSpecialPizza`) | `Clone()` produces an independent copy of the "Chef's Special" pizza, avoiding re-running construction logic |
+`Builders/CustomPizzaBuilder.cs` Assembles a `CustomPizza` step by step (size, crust, toppings, price) through chained method calls instead of one large constructor
 
-| **Singleton** | `Logging/OrderLogger.cs` | Guarantees exactly one `OrderLogger` instance exists throughout the whole application, accessed through a single static `Instance` property with a private constructor |
+**Prototype**
+
+`Models/Pizza.cs` (`ChefSpecialPizza`) 
+
+`Clone()` produces an independent copy of the "Chef's Special" pizza, avoiding re-running construction logic
+
+**Singleton**
+
+`Logging/OrderLogger.cs` Guarantees exactly one `OrderLogger` instance exists throughout the whole application, accessed through a single static `Instance` property with a private constructor
 
 
 ### Structural Patterns
 
 
-| **Decorator** | `Decorators/ToppingDecorator.cs` | Wraps an `IOrderItem` to add extra toppings and cost at runtime, without modifying the `Pizza` classes |
+**Decorator**
 
-| **Facade** | `Facades/OrderFacade.cs` | Hides the coordination of `PizzaFactory`, `ToppingDecorator`, and `OrderLogger` behind one simple `PlaceOrder()` call |
+`Decorators/ToppingDecorator.cs` Wraps an `IOrderItem` to add extra toppings and cost at runtime, without modifying the `Pizza` classes
 
-| **Adapter** | `Payments/LegacyPaymentAdapter.cs` | Translates a "legacy" payment gateway's incompatible method signature (`MakePayment(int cents)`) into the app's expected interface (`ProcessPayment(decimal dollars)`) |
+**Facade**
+
+`Facades/OrderFacade.cs` | Hides the coordination of `PizzaFactory`, `ToppingDecorator`, and `OrderLogger` behind one simple `PlaceOrder()` call |
+
+**Adapter**
+
+`Payments/LegacyPaymentAdapter.cs` Translates a "legacy" payment gateway's incompatible method signature (`MakePayment(int cents)`) into the app's expected interface (`ProcessPayment(decimal dollars)`)
 
 | **Bridge** | `Notifications/OrderNotifier.cs` | Keeps emails and SMSs as independent hierarchies that can be mixed freely at runtime |
 
