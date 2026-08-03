@@ -15,9 +15,13 @@ This project contains **Notes**, a **Presentation** covering the design patterns
 ### Creational Patterns
 
 
-| **Factory Method** | `Factories/PizzaFactory.cs` | Subclasses (`NYPizzaFactory`, `ChicagoPizzaFactory`) override `CreatePizza()` to decide which concrete `Pizza` gets built, while `OrderPizza()` stays fixed in the base class |
+**Factory Method** 
 
-| **Abstract Factory** | `Factories/IPizzaIngredientFactory.cs`, `Ingredients/` | `NYIngredientFactory` and `ChicagoIngredientFactory` each produce a consistent *family* of ingredients (dough, sauce, cheese) |
+`Factories/PizzaFactory.cs`  Subclasses (`NYPizzaFactory`, `ChicagoPizzaFactory`) override `CreatePizza()` to decide which concrete `Pizza` gets built, while `OrderPizza()` stays fixed in the base class
+
+**Abstract Factory** 
+
+`Factories/IPizzaIngredientFactory.cs`, `Ingredients/`  `NYIngredientFactory` and `ChicagoIngredientFactory` each produce a consistent *family* of ingredients (dough, sauce, cheese) 
 
 | **Builder** | `Builders/CustomPizzaBuilder.cs` | Assembles a `CustomPizza` step by step (size, crust, toppings, price) through chained method calls instead of one large constructor |
 
