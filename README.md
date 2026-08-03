@@ -1,4 +1,4 @@
-# Pizza Palace — Design Patterns Portfolio Project
+# Pizza Palace Design Patterns Project
 
 
 ## Background
